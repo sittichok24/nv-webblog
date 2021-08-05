@@ -1,8 +1,8 @@
 {
-  "name": "nv-wbblof-client",
+  "name": "nv-webblog-client",
   "version": "1.0.0",
-  "description": "nodejs veujs webblog client",
-  "author": "sittichok tongtub",
+  "description": "nodejs vuejs webblog client",
+  "author": "kritsakorn thiplui",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,7 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "vue": "^2.5.2",
+    "vue-resource": "^1.5.3",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
